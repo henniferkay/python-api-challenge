@@ -8,4 +8,4 @@ The weather data were requested and retrieved from the OpenWeather API. Temperat
 
 Maps were generated using the Geoapify API and the geoViews Python library. The hotel information was also obtained from the Geoapify API--part of the challenge was to find the cities with preferred weather conditions and locate the first hotel located within 10,000 meters of each city's longitude and latitude.
 
-The analysis and outputs were programmed in Jupyter Notebook--there are two files (WeatherPy.ipynb and VacationPy.ipynb).
+The analysis and outputs were programmed in Jupyter Notebook--there are two files (WeatherPy.ipynb and VacationPy.ipynb). The API keys used to make calls to OpenWeather and Geoapify were stored as a Python file, "api_keys.py." The scatter plots showing the relationships of weather conditions and geographical location are saved in "output_data" folder.
